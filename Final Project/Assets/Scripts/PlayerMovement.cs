@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float _moveSpeed = 10f;
     public float _charHealth = 5f;
     public TextMeshProUGUI healthText;
+    public GameObject Camera;
 
     // Start is called before the first frame update
     void Start()
@@ -53,4 +54,9 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(2);
         }
     }
+
+    //public void PlayerRotation()
+    //{
+   //     transform.rotation = Camera.transform.rotation;
+   // }
 }
