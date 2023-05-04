@@ -24,7 +24,7 @@ public class BulletSpawner : MonoBehaviour
 
     public void FireRate()
     {
-        if(GetKeyDown )
+        //if(GetKeyDown )
         {
             Instantiate(bulletPrefab, SpawnPos.transform.position, SpawnPos.transform.rotation);
         }
