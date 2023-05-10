@@ -25,11 +25,21 @@ public class SceneLoader : MonoBehaviour
 
     public void ReplayFromGO()
     {
-       // SceneManager.LoadScene("Course #1");
+       SceneManager.LoadScene("Game");
+    }
+
+    public void ToMenuFromGO()
+    {
+        SceneManager.LoadScene("Intro Scene");
     }
 
     public void ReplayFromWin()
     {
-       // SceneManager.LoadScene("Course #1");
+        SceneManager.LoadScene("Game");
+    }
+
+    public void ToMenuFromWin()
+    {
+        SceneManager.LoadScene("Intro Scene");
     }
 }
