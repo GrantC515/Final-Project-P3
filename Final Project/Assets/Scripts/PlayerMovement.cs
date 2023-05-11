@@ -10,12 +10,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float _moveSpeed = 10f;
     public float _charHealth = 5f;
     public TextMeshProUGUI healthText;
-    public GameObject Camera;
+    public float jumpForce = 10;
+    public bool isOnGround = false;
+    public bool isGameOver = false;
+    private Rigidbody _playerRB;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _playerRB = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -23,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Movement();
         GameOver();
+        PlayerJump();
     }
 
     void Movement()
@@ -33,6 +37,15 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(xValue, -zValue, 0f);
     }
 
+    public void PlayerJump()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && isOnGround && !isGameOver)
+        {
+            _playerRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isOnGround = false;
+        }
+    }
+
     public void UpdateHealth()
     {
         _charHealth --;
@@ -41,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
         private void OnCollisionEnter(Collision other) 
     {
-       if(other.gameObject.CompareTag("Obstacle")) 
+       if(other.gameObject.CompareTag("Projectile")) 
         {
             UpdateHealth();
         }
@@ -55,8 +68,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //public void PlayerRotation()
-    //{
-   //     transform.rotation = Camera.transform.rotation;
-   // }
+    private void IsOnGround(Collision other)
+    {
+        if(other.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }
+    }
 }

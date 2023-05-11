@@ -1,25 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    public Transform player;
-    public Vector3 offset;
+    public Camera cam;
+    private float xRotation = 0f;
+
+    public float xSens = 30f;
+    public float ySens = 30f;
  // Update is called once per frame
-    void Update () {
-     transform.position = player.position + offset;
-     //if (Input.GetMouseButton(1))
-     {
-      float mouseX = Input.GetAxis("Mouse X");
-     float mouseY = Input.GetAxis("Mouse Y");
-     Vector3 lookhere = new Vector3(-mouseY, mouseX, 0);
-      transform.Rotate(lookhere);
-     }
-    }    
+    void Update () 
+    {
+        //PlayerLook();
+    }
+    public void PlayerLook()
+    {
+        float mouseX = (Input.mousePosition.x / Screen.width) - .5f;
+        float mouseY = (Input.mousePosition.y / Screen.height) - .5f;
+        xRotation -= (mouseY = Time.deltaTime) * ySens;
+        xRotation = Mathf.Clamp(xRotation, -80f, 80f);
+        cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        transform.Rotate(Vector3.forward * (mouseX * Time.deltaTime) * xSens);
+    }
 }
