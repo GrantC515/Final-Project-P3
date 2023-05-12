@@ -11,14 +11,17 @@ public class PlayerMovement : MonoBehaviour
     public float _charHealth = 5f;
     public TextMeshProUGUI healthText;
     public float jumpForce = 10;
+    private float moveDirection = 0;
     public bool isOnGround = false;
     public bool isGameOver = false;
     private Rigidbody _playerRB;
+    public GameObject orientation;
 
     // Start is called before the first frame update
     void Start()
     {
         _playerRB = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
@@ -31,10 +34,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        float xValue = Input.GetAxis("Horizontal") * _moveSpeed * Time.deltaTime;
-        float zValue = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
+        float horizontalInput = Input.GetAxis("Horizontal") * _moveSpeed * Time.deltaTime;
+        float verticalInput = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
 
-        transform.Translate(xValue, -zValue, 0f);
+        transform.Translate(horizontalInput, -verticalInput, 0f);
+        //moveDirection = orientation * verticalInput * orientation.right * horizontalInput;
     }
 
     public void PlayerJump()

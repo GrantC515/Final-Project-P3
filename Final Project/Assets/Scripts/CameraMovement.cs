@@ -5,23 +5,30 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public Camera cam;
+    public GameObject orientation;
+    private float yRotation = 0f;
     private float xRotation = 0f;
 
     public float xSens = 30f;
     public float ySens = 30f;
+   
+    private void Start() 
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+       // Cursor.visible = false;    
+    }
  // Update is called once per frame
     void Update () 
     {
-        //PlayerLook();
-    }
-    public void PlayerLook()
-    {
-        float mouseX = (Input.mousePosition.x / Screen.width) - .5f;
-        float mouseY = (Input.mousePosition.y / Screen.height) - .5f;
-        xRotation -= (mouseY = Time.deltaTime) * ySens;
-        xRotation = Mathf.Clamp(xRotation, -80f, 80f);
-        cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        transform.Rotate(Vector3.forward * (mouseX * Time.deltaTime) * xSens);
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * xSens;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * ySens;
+
+        yRotation += mouseX;
+
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        orientation.transform.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 }
