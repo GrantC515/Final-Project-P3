@@ -16,8 +16,20 @@ public class BulletMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         Destroy(this.gameObject, travelTime);
     }
-
+    
+    private void OnTriggerEnter(Collider other) 
+    {
+        if(other.gameObject.CompareTag("Course"))
+        {
+            Destroy(this.gameObject);
+        }
+        else if(other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(this.gameObject);
+            Destroy(other.gameObject);
+        }
+    }
 }

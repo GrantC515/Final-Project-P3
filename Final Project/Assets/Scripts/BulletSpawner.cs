@@ -1,38 +1,44 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using System.Collections;
+using TMPro;
+ 
 public class BulletSpawner : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    public GameObject BulletPrefab;
     public GameObject SpawnPos;
-    public float rateOfFire = 3;
-    private float _cooldownTimer;
-    private float _safegaurd;
-    // Start is called before the first frame update
+    //public GameObject 
+    public float AmmoCount;
+    private bool OutOfAmmo;
+    TextMeshProUGUI AmmoCountText;
+    
+    
     void Start()
     {
-        _cooldownTimer = rateOfFire;
-        _safegaurd = _cooldownTimer -= 0.1f;
+        OutOfAmmo = false;
+        AmmoCount = 50f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        FireRate();
+        if (AmmoCount <= 0)
+        {
+            OutOfAmmo = true;
+        }
+        Fire();
     }
 
-    public void FireRate()
+    private void Fire()
     {
-        //if(GetKeyDown )
+        if (Input.GetButtonDown("Fire1") && !OutOfAmmo)
         {
-            Instantiate(bulletPrefab, SpawnPos.transform.position, SpawnPos.transform.rotation);
+            Instantiate(BulletPrefab,SpawnPos.transform.position,SpawnPos.transform.rotation);
+            AmmoCount --;
+            AmmoCountText.text = AmmoCount.ToString();
         }
-        _cooldownTimer -= 0.1f;
-
-        if(_cooldownTimer <= 0)
+        else if(Input.GetButtonDown("Fire1") && OutOfAmmo)
         {
-            _cooldownTimer = rateOfFire;
+            
         }
     }
 }

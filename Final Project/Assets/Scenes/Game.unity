@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 7331154}
   m_Layer: 0
   m_Name: Enemy (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 9948958}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,6 +286,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac1631128a2ee2f44a506548f5325180, type: 3}
       propertyPath: m_Name
       value: statue_column
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac1631128a2ee2f44a506548f5325180, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac1631128a2ee2f44a506548f5325180, type: 3}
@@ -453,6 +457,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     - target: {fileID: 4059277186794326834, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -629,6 +637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &45787061 stripped
@@ -739,6 +751,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
       propertyPath: m_Name
       value: stone_tallI
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
@@ -1130,8 +1146,8 @@ Transform:
   - {fileID: 405572541}
   - {fileID: 575653667}
   - {fileID: 503264011}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &73824593
 PrefabInstance:
@@ -1312,7 +1328,7 @@ GameObject:
   - component: {fileID: 89834616}
   m_Layer: 0
   m_Name: Wall Type 3
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1473,7 +1489,7 @@ GameObject:
   - component: {fileID: 94148775}
   m_Layer: 0
   m_Name: Wall Type 1 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1576,6 +1592,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -1813,6 +1833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &112037350 stripped
@@ -1905,6 +1929,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7bdfdd29f6d4ea942b5f13346d58ca8b, type: 3}
       propertyPath: m_Name
       value: path_stoneEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7bdfdd29f6d4ea942b5f13346d58ca8b, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bdfdd29f6d4ea942b5f13346d58ca8b, type: 3}
@@ -2080,6 +2108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &126020848 stripped
@@ -2117,7 +2149,7 @@ GameObject:
   - component: {fileID: 133069650}
   m_Layer: 0
   m_Name: Enemy (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2422,6 +2454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &148081880 stripped
@@ -2645,7 +2681,7 @@ GameObject:
   - component: {fileID: 170789040}
   m_Layer: 0
   m_Name: Enemy (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,6 +2799,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -3043,6 +3083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &189291668 stripped
@@ -3221,6 +3265,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -3788,7 +3836,7 @@ GameObject:
   - component: {fileID: 216342842}
   m_Layer: 0
   m_Name: Wall Type 2
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3893,6 +3941,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
       propertyPath: m_Name
       value: stone_tallF
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
@@ -4048,6 +4100,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
       propertyPath: m_Name
       value: stone_tallG
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
@@ -4346,7 +4402,7 @@ GameObject:
   - component: {fileID: 246386206}
   m_Layer: 0
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4596,6 +4652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallG
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
 --- !u!4 &252361723 stripped
@@ -4653,7 +4713,7 @@ Transform:
   m_Children:
   - {fileID: 889617465}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &258398442
 MonoBehaviour:
@@ -4802,6 +4862,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
       propertyPath: m_Name
       value: stone_tallB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
@@ -4957,6 +5021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
       propertyPath: m_Name
       value: path_stoneCorner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
@@ -5169,6 +5237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &277444293 stripped
@@ -5261,6 +5333,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
@@ -5505,6 +5581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_smallI (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
 --- !u!4 &284881188 stripped
@@ -5627,7 +5707,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296933424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -71.911896, y: -5.78183, z: -28.021008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5649,8 +5729,8 @@ Transform:
   - {fileID: 1013674390}
   - {fileID: 888483670}
   - {fileID: 844593555}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &302720193
 PrefabInstance:
@@ -5793,6 +5873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &306745205 stripped
@@ -5886,6 +5970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &310626351 stripped
@@ -5978,6 +6066,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a94da2dd4f9f40a45913420dc4d9495d, type: 3}
       propertyPath: m_Name
       value: platform_stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a94da2dd4f9f40a45913420dc4d9495d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a94da2dd4f9f40a45913420dc4d9495d, type: 3}
@@ -6134,6 +6226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_smallB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eabcdf9c6808fdb42a7c18cff89f51ab, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eabcdf9c6808fdb42a7c18cff89f51ab, type: 3}
 --- !u!4 &343437167 stripped
@@ -6226,6 +6322,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
       propertyPath: m_Name
       value: stone_smallI (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
@@ -6462,7 +6562,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389316616}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -71.911896, y: -5.78183, z: -28.021008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6472,8 +6572,8 @@ Transform:
   - {fileID: 1362669644}
   - {fileID: 1722016064}
   - {fileID: 722745370}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &390335239
 PrefabInstance:
@@ -6740,6 +6840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_pineGroundB (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
 --- !u!4 &407916532 stripped
@@ -6778,7 +6882,7 @@ GameObject:
   - component: {fileID: 414222940}
   m_Layer: 0
   m_Name: Wall Type 1 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6826,7 +6930,7 @@ GameObject:
   - component: {fileID: 416623047}
   m_Layer: 0
   m_Name: Enemy (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7181,6 +7285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: path_stone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5faba207d0488e149a4a711ffda3b251, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5faba207d0488e149a4a711ffda3b251, type: 3}
 --- !u!4 &427845658 stripped
@@ -7357,6 +7465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: path_stoneEnd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7bdfdd29f6d4ea942b5f13346d58ca8b, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bdfdd29f6d4ea942b5f13346d58ca8b, type: 3}
 --- !u!4 &435297668 stripped
@@ -7507,6 +7619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &445224269 stripped
@@ -7599,6 +7715,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
       propertyPath: m_Name
       value: path_stoneCircle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
@@ -7851,6 +7971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_columnDamaged (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f409b0342457624438fbb596449571b0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f409b0342457624438fbb596449571b0, type: 3}
 --- !u!4 &456295487 stripped
@@ -8056,7 +8180,7 @@ GameObject:
   - component: {fileID: 489720639}
   m_Layer: 0
   m_Name: Wall Type 4 (1)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8106,7 +8230,7 @@ GameObject:
   - component: {fileID: 491666654}
   m_Layer: 0
   m_Name: Wall Type 4 (1)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8311,7 +8435,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505298283}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -83.51, y: 0, z: 35.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8323,8 +8447,8 @@ Transform:
   - {fileID: 284881188}
   - {fileID: 1323451364}
   - {fileID: 1108413855}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511504724
 GameObject:
@@ -8725,6 +8849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallG
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
 --- !u!4 &525787770 stripped
@@ -8817,6 +8945,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
       propertyPath: m_Name
       value: stone_smallI (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
@@ -8911,6 +9043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallF
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
 --- !u!4 &532862437 stripped
@@ -9003,6 +9139,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -9372,6 +9512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
 --- !u!4 &564664202 stripped
@@ -9739,6 +9883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &574393094 stripped
@@ -10011,6 +10159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: path_stoneCorner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
 --- !u!4 &585172856 stripped
@@ -10174,6 +10326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallF (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
 --- !u!4 &585498272 stripped
@@ -10267,6 +10423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_stone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a94da2dd4f9f40a45913420dc4d9495d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a94da2dd4f9f40a45913420dc4d9495d, type: 3}
 --- !u!4 &598862357 stripped
@@ -10359,6 +10519,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
@@ -10713,6 +10877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &613402543 stripped
@@ -10926,6 +11094,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
       propertyPath: m_Name
       value: targetA (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     - target: {fileID: 5677247574224054565, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11215,6 +11387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &637942174 stripped
@@ -11327,6 +11503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &651596339 stripped
@@ -11364,7 +11544,7 @@ GameObject:
   - component: {fileID: 658588087}
   m_Layer: 0
   m_Name: Enemy (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11458,6 +11638,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -11625,6 +11809,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
@@ -11848,6 +12036,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
       propertyPath: m_Name
       value: targetA (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
@@ -12320,7 +12512,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &707509872 stripped
 GameObject:
@@ -12625,6 +12817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &719948363 stripped
@@ -12780,6 +12976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &726405886 stripped
@@ -12934,6 +13134,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
       propertyPath: m_Name
       value: tree_pineGroundB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
@@ -13133,6 +13337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &732740878 stripped
@@ -13306,6 +13514,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
       propertyPath: m_Name
       value: tree_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
@@ -13523,7 +13735,7 @@ GameObject:
   - component: {fileID: 779755638}
   m_Layer: 0
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13822,7 +14034,7 @@ GameObject:
   - component: {fileID: 810435734}
   m_Layer: 0
   m_Name: Enemy (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14041,6 +14253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallI (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
 --- !u!4 &815201958 stripped
@@ -14196,6 +14412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &815625296 stripped
@@ -14346,6 +14566,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6056a0308ab83364b9f4b43d75d0865b, type: 3}
   m_PrefabInstance: {fileID: 833444736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &833692451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833692452}
+  m_Layer: 0
+  m_Name: Course
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833692452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833692451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2104878880}
+  - {fileID: 1782251994}
+  - {fileID: 1796382941}
+  - {fileID: 1799145584}
+  - {fileID: 505298284}
+  - {fileID: 1652646260}
+  - {fileID: 389316617}
+  - {fileID: 296933425}
+  - {fileID: 72005566}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &844593554
 GameObject:
   m_ObjectHideFlags: 0
@@ -14358,7 +14618,7 @@ GameObject:
   - component: {fileID: 844593556}
   m_Layer: 0
   m_Name: Ruins
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14535,6 +14795,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     - target: {fileID: 4059277186794326834, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14767,7 +15031,7 @@ GameObject:
   - component: {fileID: 888483670}
   m_Layer: 0
   m_Name: Wall Type 1 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14933,6 +15197,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
       propertyPath: m_Name
       value: targetA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
@@ -15172,6 +15440,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
       propertyPath: m_Name
       value: targetA (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
@@ -15772,6 +16044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_columnDamaged (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f409b0342457624438fbb596449571b0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f409b0342457624438fbb596449571b0, type: 3}
 --- !u!4 &966896693 stripped
@@ -16328,7 +16604,7 @@ GameObject:
   - component: {fileID: 1013674391}
   m_Layer: 0
   m_Name: Wall Type 1 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16431,6 +16707,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
       propertyPath: m_Name
       value: path_stoneCorner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 030e438593677e047bdac9c6a717bb01, type: 3}
@@ -16606,7 +16886,7 @@ Transform:
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1058210079
 PrefabInstance:
@@ -16737,6 +17017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: targetA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
 --- !u!4 &1064586988 stripped
@@ -16810,6 +17094,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
       propertyPath: m_Name
       value: stone_tallB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
@@ -17028,6 +17316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_head
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 42884ad4ebb95494bb8edc72bd62f6f3, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42884ad4ebb95494bb8edc72bd62f6f3, type: 3}
 --- !u!4 &1089007142 stripped
@@ -17121,6 +17413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &1091639339 stripped
@@ -17158,7 +17454,7 @@ GameObject:
   - component: {fileID: 1108402366}
   m_Layer: 0
   m_Name: Enemy (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17253,6 +17549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_smallI (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
 --- !u!4 &1108413855 stripped
@@ -17290,7 +17590,7 @@ GameObject:
   - component: {fileID: 1110341049}
   m_Layer: 0
   m_Name: Enemy (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17488,6 +17788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
 --- !u!4 &1116802294 stripped
@@ -17568,7 +17872,7 @@ GameObject:
   - component: {fileID: 1123499683}
   m_Layer: 0
   m_Name: Enemy (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17799,6 +18103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
 --- !u!4 &1141674219 stripped
@@ -18028,6 +18336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
 --- !u!4 &1151321166 stripped
@@ -18046,7 +18358,7 @@ GameObject:
   - component: {fileID: 1152251124}
   m_Layer: 0
   m_Name: Enemy (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18140,6 +18452,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -18420,6 +18736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &1170174297 stripped
@@ -18586,7 +18906,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1179744097
 PrefabInstance:
@@ -18654,6 +18974,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
       propertyPath: m_Name
       value: stone_tallI
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
@@ -18747,6 +19071,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -18922,7 +19250,7 @@ GameObject:
   - component: {fileID: 1185593579}
   m_Layer: 0
   m_Name: Wall Type 2 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19027,6 +19355,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -19412,6 +19744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &1209785943 stripped
@@ -19542,7 +19878,7 @@ GameObject:
   - component: {fileID: 1224627211}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19775,6 +20111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &1236070356 stripped
@@ -19899,6 +20239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &1239939390 stripped
@@ -19992,6 +20336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
 --- !u!4 &1253521699 stripped
@@ -20084,6 +20432,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -20337,6 +20689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
 --- !u!4 &1268987555 stripped
@@ -20393,7 +20749,7 @@ GameObject:
   - component: {fileID: 1273288345}
   m_Layer: 0
   m_Name: Enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20550,6 +20906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1284912838 stripped
@@ -20662,6 +21022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_pineGroundB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
 --- !u!4 &1298463405 stripped
@@ -20700,7 +21064,7 @@ GameObject:
   - component: {fileID: 1316847909}
   m_Layer: 0
   m_Name: Wall Type 5 (1)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20812,6 +21176,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
       propertyPath: m_Name
       value: stone_smallI (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
@@ -20968,6 +21336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
 --- !u!4 &1331957938 stripped
@@ -21041,6 +21413,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -21339,7 +21715,7 @@ GameObject:
   - component: {fileID: 1357418343}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21434,6 +21810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
 --- !u!4 &1360984729 stripped
@@ -21527,6 +21907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: targetA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d9aa47dbe8fc14e8dbf2d2f5888ec5, type: 3}
 --- !u!4 &1362530831 stripped
@@ -21581,7 +21965,7 @@ GameObject:
   - component: {fileID: 1375937381}
   m_Layer: 0
   m_Name: Wall Type 3 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21760,6 +22144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallF
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36efd1236e82cd84183d46a5f1bc1e9b, type: 3}
 --- !u!4 &1380295148 stripped
@@ -21853,6 +22241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &1381781063 stripped
@@ -21945,6 +22337,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
       propertyPath: m_Name
       value: tree_small (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
@@ -22354,6 +22750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallI (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
 --- !u!4 &1420032766 stripped
@@ -22446,6 +22846,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
       propertyPath: m_Name
       value: stone_smallI
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
@@ -22660,6 +23064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_block
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1f5cffb021c3f6b4996388fad1a79fde, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f5cffb021c3f6b4996388fad1a79fde, type: 3}
 --- !u!4 &1443746454 stripped
@@ -22815,6 +23223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &1459788358 stripped
@@ -22907,6 +23319,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
       propertyPath: m_Name
       value: tree_pineGroundB (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
@@ -23050,7 +23466,7 @@ GameObject:
   - component: {fileID: 1470444648}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23144,6 +23560,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
       propertyPath: m_Name
       value: stone_smallI (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 529a5af766904c04ebb5afd877aa09f7, type: 3}
@@ -23300,6 +23720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b86c5f46bd9ad6478fa52520412c503, type: 3}
 --- !u!4 &1482266652 stripped
@@ -23392,6 +23816,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -23633,6 +24061,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -24139,6 +24571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallI
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
 --- !u!4 &1536721868 stripped
@@ -24294,6 +24730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_pineGroundB (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
 --- !u!4 &1544245348 stripped
@@ -24367,6 +24807,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
@@ -24460,6 +24904,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
       propertyPath: m_Name
       value: stone_tallB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
@@ -24646,6 +25094,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
       propertyPath: m_Name
       value: tree_pineGroundB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
@@ -25147,6 +25599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1602263549 stripped
@@ -25240,6 +25696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallI (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
 --- !u!4 &1602716093 stripped
@@ -25332,6 +25792,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
       propertyPath: m_Name
       value: stone_tallB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
@@ -25487,6 +25951,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
       propertyPath: m_Name
       value: stone_tallB
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
@@ -26002,7 +26470,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652646259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -114.551994, y: 0, z: -5.8179617}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26015,8 +26483,8 @@ Transform:
   - {fileID: 1031034214}
   - {fileID: 2096583806}
   - {fileID: 274926251}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1653078362
 PrefabInstance:
@@ -26140,7 +26608,7 @@ GameObject:
   - component: {fileID: 1656851118}
   m_Layer: 0
   m_Name: Enemy (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26234,6 +26702,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
       propertyPath: m_Name
       value: tree_pineGroundB (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
@@ -26642,6 +27114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1715295774 stripped
@@ -26753,6 +27229,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
       propertyPath: m_Name
       value: stone_tallI (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
@@ -27017,6 +27497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_pineGroundB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
 --- !u!4 &1729589051 stripped
@@ -27090,6 +27574,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     - target: {fileID: 4059277186794326834, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27191,6 +27679,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
       propertyPath: m_Name
       value: stone_tallG
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
@@ -27365,7 +27857,7 @@ GameObject:
   - component: {fileID: 1750255884}
   m_Layer: 0
   m_Name: Wall Type 2 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27855,6 +28347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallH (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
 --- !u!4 &1780978302 stripped
@@ -27928,8 +28424,8 @@ Transform:
   - {fileID: 170789040}
   - {fileID: 416623047}
   - {fileID: 7331154}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1790118670
 PrefabInstance:
@@ -28060,6 +28556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
 --- !u!4 &1793814815 stripped
@@ -28123,7 +28623,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796382940}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -75.18, y: 0, z: -7.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28139,8 +28639,8 @@ Transform:
   - {fileID: 1544245348}
   - {fileID: 1331957938}
   - {fileID: 1383449274}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1799145583
 GameObject:
@@ -28165,7 +28665,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799145583}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -97.61, y: 0, z: 3.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28178,8 +28678,8 @@ Transform:
   - {fileID: 1878679464}
   - {fileID: 407916532}
   - {fileID: 1696486424}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1807445266
 PrefabInstance:
@@ -28433,6 +28933,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
@@ -28725,6 +29229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1840382021 stripped
@@ -28919,6 +29427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallG
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f459ba8d21d3544ba23ad3becf5648, type: 3}
 --- !u!4 &1878384466 stripped
@@ -29030,6 +29542,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
       propertyPath: m_Name
       value: tree_small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
@@ -29247,6 +29763,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
       propertyPath: m_Name
       value: tree_pineGroundB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bf57c5bbef90e4db2116e316f197a9, type: 3}
@@ -29911,7 +30431,7 @@ GameObject:
   - component: {fileID: 1953824078}
   m_Layer: 0
   m_Name: Wall Type 4 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30023,6 +30543,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 592949f67117bb343bbd75c3f5d78024, type: 3}
       propertyPath: m_Name
       value: statue_obelisk
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 592949f67117bb343bbd75c3f5d78024, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 592949f67117bb343bbd75c3f5d78024, type: 3}
@@ -30310,6 +30834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1978315101 stripped
@@ -30366,7 +30894,7 @@ GameObject:
   - component: {fileID: 1983642906}
   m_Layer: 0
   m_Name: Enemy (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30460,6 +30988,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_Name
       value: stone_tallH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     - target: {fileID: 4059277186794326834, guid: 0c912509781f87f4791564f1b42177f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30686,6 +31218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallJ (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f165f544969b8c94fb11c810840ea340, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f165f544969b8c94fb11c810840ea340, type: 3}
 --- !u!4 &1992434671 stripped
@@ -30797,6 +31333,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
       propertyPath: m_Name
       value: stone_tallA
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e460dcc065229414fb1e1505956576ec, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e460dcc065229414fb1e1505956576ec, type: 3}
@@ -31015,6 +31555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_columnDamaged
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f409b0342457624438fbb596449571b0, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f409b0342457624438fbb596449571b0, type: 3}
 --- !u!4 &2018051544 stripped
@@ -31053,7 +31597,7 @@ GameObject:
   - component: {fileID: 2030599280}
   m_Layer: 0
   m_Name: Wall Type 5 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31382,6 +31926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_tallB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb838afc5ef61894184323679837b28d, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb838afc5ef61894184323679837b28d, type: 3}
 --- !u!4 &2064785139 stripped
@@ -31525,6 +32073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_ring
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 982ef380f45261146966b63dff3830aa, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982ef380f45261146966b63dff3830aa, type: 3}
 --- !u!4 &2072003765 stripped
@@ -31617,6 +32169,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
       propertyPath: m_Name
       value: tree_small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
@@ -31772,6 +32328,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
       propertyPath: m_Name
       value: path_stoneCircle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 533d75ca22173c5458db3af15f52f9a2, type: 3}
@@ -32126,7 +32686,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104878879}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -132.716, y: 2.13, z: -105.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -32137,8 +32697,8 @@ Transform:
   - {fileID: 899845855}
   - {fileID: 624438745}
   - {fileID: 1064586988}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 833692452}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2109881437
 PrefabInstance:
@@ -32206,6 +32766,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
       propertyPath: m_Name
       value: tree_small (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccf1ecf022e343418827e8885dcf3f0, type: 3}
@@ -32299,6 +32863,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
       propertyPath: m_Name
       value: stone_tallI
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920de2f029ef0bc4c891d3ebe7e023d7, type: 3}
@@ -32400,7 +32968,7 @@ GameObject:
   - component: {fileID: 2122074315}
   m_Layer: 0
   m_Name: Wall Type 3 (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32488,7 +33056,7 @@ Transform:
   - {fileID: 3584347082903032785}
   - {fileID: 3847449235370770389}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &552460673342681958
 MeshFilter:
@@ -32752,6 +33320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3584347082903032785}
+  - component: {fileID: 4248574515238717804}
   m_Layer: 0
   m_Name: machinegun (1)
   m_TagString: Untagged
@@ -32759,6 +33328,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4248574515238717804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4248574515238717803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d1a4aebc9ea274b8c74605d1756745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 4275994873893043886, guid: 9a2c155b84c24194198eca953c79e38d, type: 3}
+  SpawnPos: {fileID: 1139442395}
 --- !u!33 &4369380562370647998
 MeshFilter:
   m_ObjectHideFlags: 0
