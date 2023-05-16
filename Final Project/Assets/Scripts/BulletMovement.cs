@@ -20,7 +20,7 @@ public class BulletMovement : MonoBehaviour
         Destroy(this.gameObject, travelTime);
     }
     
-    private void OnTriggerEnter(Collider other) 
+    private void Impact(Collider other) 
     {
         if(other.gameObject.CompareTag("Course"))
         {

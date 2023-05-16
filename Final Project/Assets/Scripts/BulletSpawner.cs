@@ -6,7 +6,8 @@ public class BulletSpawner : MonoBehaviour
 {
     public GameObject BulletPrefab;
     public GameObject SpawnPos;
-    //public GameObject 
+    public GameObject OutOfAmmoPanel;
+    public GameObject AmmoPickup;
     public float AmmoCount;
     private bool OutOfAmmo;
     TextMeshProUGUI AmmoCountText;
@@ -15,17 +16,14 @@ public class BulletSpawner : MonoBehaviour
     void Start()
     {
         OutOfAmmo = false;
-        AmmoCount = 50f;
+        AmmoCount = 30f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (AmmoCount <= 0)
-        {
-            OutOfAmmo = true;
-        }
         Fire();
+        AmmoStatus();
     }
 
     private void Fire()
@@ -38,7 +36,28 @@ public class BulletSpawner : MonoBehaviour
         }
         else if(Input.GetButtonDown("Fire1") && OutOfAmmo)
         {
-            
+            OutOfAmmoPanel.SetActive(true);
+        }
+    }
+
+    private void AmmoStatus()
+    {
+        if (AmmoCount <= 0)
+        {
+            OutOfAmmo = true;
+        }
+        else if (AmmoCount >= 0)
+        {
+            OutOfAmmo = false;
+        }
+    }
+
+    private void AmmoRefill(Collision other) 
+    {
+        if (other.gameObject.CompareTag("Pickup"))
+        {
+            Destroy(other.gameObject);
+            AmmoCount += 20f;
         }
     }
 }
