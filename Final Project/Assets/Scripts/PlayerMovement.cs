@@ -6,77 +6,69 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public float moveSpeed;
+    public float groundDrag;
+    public float playerHeight;
+    public LayerMask WhatIsGround;
+    bool grounded;
+    public Transform orientation;
+    float horizontalInput;
+    float verticalInput;
+    Vector3 moveDirection;
+    Rigidbody rb;
 
-    [SerializeField] public float _moveSpeed = 10f;
-    public float _charHealth = 5f;
-    public TextMeshProUGUI healthText;
-    public float jumpForce = 10;
-    private float moveDirection = 0;
-    public bool isOnGround = false;
-    public bool isGameOver = false;
-    private Rigidbody _playerRB;
-    public GameObject orientation;
-
-    // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
-        _playerRB = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void Update() 
     {
-        Movement();
-        GameOver();
-        PlayerJump();
-    }
+        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, WhatIsGround);
+        MyInput();
+        //SpeedControl();
 
-    void Movement()
-    {
-        float horizontalInput = Input.GetAxis("Horizontal") * _moveSpeed * Time.deltaTime;
-        float verticalInput = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
-
-        transform.Translate(horizontalInput, -verticalInput, 0f);
-        //moveDirection = orientation * verticalInput * orientation.right * horizontalInput;
-    }
-
-    public void PlayerJump()
-    {
-        if(Input.GetKeyDown(KeyCode.Space) && isOnGround && !isGameOver)
+        if(grounded)
         {
-            _playerRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isOnGround = false;
+            rb.drag = groundDrag;
+        }
+        else
+        {
+            rb.drag = 0;
         }
     }
 
-    public void UpdateHealth()
+    void FixedUpdate() 
     {
-        _charHealth --;
-        healthText.text = _charHealth.ToString();
+        MovePlayer();
+        SpeedControl();
     }
 
-        private void OnCollisionEnter(Collision other) 
+    void MyInput()
     {
-       if(other.gameObject.CompareTag("Projectile")) 
-        {
-            UpdateHealth();
-        }
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
+
     }
 
-    public void GameOver()
+    void MovePlayer()
     {
-        if(_charHealth <= 0)
-        {
-            SceneManager.LoadScene(2);
-        }
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+
+    
+         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Impulse);
+        
     }
 
-    private void IsOnGround(Collision other)
+    void SpeedControl()
     {
-        if(other.gameObject.CompareTag("Ground"))
+        Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        if(flatVel.magnitude > moveSpeed)
         {
-            isOnGround = true;
+            Vector3 limitedVel = flatVel.normalized * moveSpeed;
+            rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
     }
 }
