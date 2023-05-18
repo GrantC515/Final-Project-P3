@@ -9,11 +9,13 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public float groundDrag;
     public float playerHeight;
+    public float CharHealth = 5;
     public LayerMask WhatIsGround;
     bool grounded;
     public Transform orientation;
     float horizontalInput;
     float verticalInput;
+    public TextMeshProUGUI CharHealthText;
     Vector3 moveDirection;
     Rigidbody rb;
 
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, WhatIsGround);
         MyInput();
+        //ToWin();
         //SpeedControl();
 
         if(grounded)
@@ -38,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.drag = 0;
         }
+        CharHealthText.text = CharHealth.ToString();
     }
 
     void FixedUpdate() 
@@ -69,6 +73,14 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+        }
+    }
+
+    public void ToWin(Collider other)
+    {
+        if(other.gameObject.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene("Win Scene");
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Course
   - Enemy
+  - Pickup
+  - Goal
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,7 @@ public class BulletSpawner : MonoBehaviour
     public GameObject AmmoPickup;
     public float AmmoCount;
     private bool OutOfAmmo;
-    TextMeshProUGUI AmmoCountText;
+    public TextMeshProUGUI AmmoCountText;
     
     
     void Start()
@@ -24,6 +24,7 @@ public class BulletSpawner : MonoBehaviour
     {
         Fire();
         AmmoStatus();
+        AmmoCountText.text = AmmoCount.ToString();
     }
 
     private void Fire()
@@ -54,9 +55,9 @@ public class BulletSpawner : MonoBehaviour
 
     private void AmmoRefill(Collision other) 
     {
-        if (other.gameObject.CompareTag("Pickup"))
+        if (this.gameObject.CompareTag("Pickup"))
         {
-            Destroy(other.gameObject);
+            Destroy(this.gameObject);
             AmmoCount += 20f;
         }
     }

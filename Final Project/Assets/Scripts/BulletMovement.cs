@@ -28,7 +28,6 @@ public class BulletMovement : MonoBehaviour
         }
         else if(other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
         }
     }
